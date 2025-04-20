@@ -1,3 +1,6 @@
+header{
+  background-color: #fff;
+}
 .collapse {
     display: flex;
     flex-direction: row-reverse;
@@ -13,7 +16,7 @@
 }
 
 .carro {
-    background-color: #f6f6f6; 
+    background-color: #F9F9F9; 
     padding: 80px 0;
   }
   
@@ -44,8 +47,12 @@
     height: auto;
   }
   
+main{
+  background-color: #F9F9F9;
+}
 
   .apply {
+    height: 166px;
     padding: 40px;
     margin-left: 16%;
     width: 1280px;
@@ -55,6 +62,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+  }
+
+  .apply .container{
+    display: flex;
+    justify-content: center;
   }
   
   .apply .container {
@@ -86,5 +98,23 @@
    
   }
   
+.tere{
+  color: #78C091;
+}
 
-  
+.texto-paragrafo{
+  background-color: #F9F9F9;
+}
+
+.p-paragrafo{
+  color: #9E9DA2;
+}
+
+.celular{
+  background-color: #F9F9F9;
+}
+
+.texto-celular h5{
+ color: #000;
+}
+
