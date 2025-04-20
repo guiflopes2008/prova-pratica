@@ -6,6 +6,7 @@ header{
     flex-direction: row-reverse;
 }
 
+
 .botaoverde{
         background-color: #78C091;
         color: white;
@@ -118,3 +119,27 @@ main{
  color: #000;
 }
 
+.Flexible, .Customer{
+  background-color: #fff;
+  width: 1060px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 25%;
+  height: 304px;
+}
+
+.Earnings{
+  background-color: #fff;
+  width: 1060px;
+  border-radius: 10px;
+  display: flex;
+  margin-left: 30%;
+  height: 304px;
+}
+
+.Flexible, .Earnings{
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
